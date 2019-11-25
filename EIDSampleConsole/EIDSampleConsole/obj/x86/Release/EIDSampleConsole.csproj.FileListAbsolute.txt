@@ -1,0 +1,16 @@
+C:\Users\info\OneDrive\Desktop\EIDReader-master\EIDSampleConsole\EIDSampleConsole\bin\x86\Release\EIDSampleConsole.exe.config
+C:\Users\info\OneDrive\Desktop\EIDReader-master\EIDSampleConsole\EIDSampleConsole\bin\x86\Release\EIDSampleConsole.exe.manifest
+C:\Users\info\OneDrive\Desktop\EIDReader-master\EIDSampleConsole\EIDSampleConsole\bin\x86\Release\EIDSampleConsole.application
+C:\Users\info\OneDrive\Desktop\EIDReader-master\EIDSampleConsole\EIDSampleConsole\bin\x86\Release\EIDSampleConsole.exe
+C:\Users\info\OneDrive\Desktop\EIDReader-master\EIDSampleConsole\EIDSampleConsole\bin\x86\Release\microsoft.csharp.dll
+C:\Users\info\OneDrive\Desktop\EIDReader-master\EIDSampleConsole\EIDSampleConsole\bin\x86\Release\Newtonsoft.Json.dll
+C:\Users\info\OneDrive\Desktop\EIDReader-master\EIDSampleConsole\EIDSampleConsole\bin\x86\Release\System.Net.Http.dll
+C:\Users\info\OneDrive\Desktop\EIDReader-master\EIDSampleConsole\EIDSampleConsole\bin\x86\Release\UAE_IDCardCSharpAPI.dll
+C:\Users\info\OneDrive\Desktop\EIDReader-master\EIDSampleConsole\EIDSampleConsole\bin\x86\Release\UAE_IDCardCSharpWrapper.dll
+C:\Users\info\OneDrive\Desktop\EIDReader-master\EIDSampleConsole\EIDSampleConsole\bin\x86\Release\BouncyCastle.Crypto.dll
+C:\Users\info\OneDrive\Desktop\EIDReader-master\EIDSampleConsole\EIDSampleConsole\bin\x86\Release\SignatureUpgrade.dll
+C:\Users\info\OneDrive\Desktop\EIDReader-master\EIDSampleConsole\EIDSampleConsole\bin\x86\Release\Newtonsoft.Json.xml
+C:\Users\info\OneDrive\Desktop\EIDReader-master\EIDSampleConsole\EIDSampleConsole\obj\x86\Release\EIDSampleConsole.exe.manifest
+C:\Users\info\OneDrive\Desktop\EIDReader-master\EIDSampleConsole\EIDSampleConsole\obj\x86\Release\EIDSampleConsole.application
+C:\Users\info\OneDrive\Desktop\EIDReader-master\EIDSampleConsole\EIDSampleConsole\obj\x86\Release\EIDSampleConsole.csproj.CopyComplete
+C:\Users\info\OneDrive\Desktop\EIDReader-master\EIDSampleConsole\EIDSampleConsole\obj\x86\Release\EIDSampleConsole.exe

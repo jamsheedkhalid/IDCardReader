@@ -1,0 +1,29 @@
+{
+  "name": "EID Reader",
+  "version": "1.0",
+  "manifest_version": 2,
+
+  
+  "description": "Read Emirates ID",
+
+  "permissions": [ "contextMenus", "activeTab", "clipboardRead", "nativeMessaging","declarativeContent" ],
+  "icons": {
+    "16": "eid16.png",
+    "48": "eid48.png",
+    "128": "eid128.png"
+  },
+  "background": {
+    "scripts": [ "eid.js" ]
+  },
+"browser_action": {
+      "default_popup": "popup.html"
+    },
+  "content_scripts": [
+    {
+      "matches": [ "http://*/*", "https://*/*", "file://*/*"],
+      "js": [ "content_script.js", "jquery-3.3.1.js","redeid","readguard1","readguard2" ],
+      "all_frames": true,
+      "run_at": "document_start"
+    }
+  ]
+}

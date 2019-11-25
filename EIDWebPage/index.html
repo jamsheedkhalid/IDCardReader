@@ -1,0 +1,88 @@
+﻿
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.10/css/mdb.min.css" rel="stylesheet">
+    <title>InDepth | ID Card Reader</title>
+</head>
+<body>
+<div class="container">
+    <div class="" style="padding-top: 20px;">
+        <h1><b>INDEPTH </b>- EID CARD READER </h1>
+        <p class="lead">Read Emirates ID card into you webpages</p>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4">
+            <div class="form-group">
+                <a class="btn btn-primary" href="javascript:readeid();">Read EID</a>
+            </div>
+            <div class="form-group">
+                <label for="txtNumber">ID Number</label>
+                <input type="text" class="form-control" id="txtNumber" placeholder="Number">
+            </div>
+            <div class="form-group">
+                <label for="txtName">Name</label>
+                <input type="text" class="form-control" id="txtName" placeholder="Name">
+            </div>
+            <div class="form-group">
+                <label for="txtEmail">Email address</label>
+                <input type="email" class="form-control" id="txtEmail" aria-describedby="emailHelp" placeholder="Email">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+            <label for="txtPassport">Passport</label>
+            <input type="text" class="form-control" id="txtPassport" placeholder="Passport">
+        </div>
+            <div class="form-group">
+                <label for="txtMobile">Mobile</label>
+                <input type="text" class="form-control" id="txtMobile" placeholder="Mobile Number">
+            </div>
+            <div class="form-group">
+                <label for="txtdob">DOB</label>
+                <input type="text" class="form-control" id="txtdob" placeholder="DOB">
+            </div>
+            <div class="form-group">
+                <label for="txtemirate">Emirate</label>
+                <input type="text" class="form-control" id="txtemirate" placeholder="Emirate">
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.10/js/mdb.min.js"></script>
+
+    <script>
+        var readeid = function () {
+            var event = document.createEvent('Event');
+            event.initEvent('EID_EVENT');
+            document.dispatchEvent(event);
+        }
+    </script>
+</body>
+</html>
+
+
+
